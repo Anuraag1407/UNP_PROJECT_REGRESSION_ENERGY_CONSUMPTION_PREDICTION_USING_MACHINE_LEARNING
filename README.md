@@ -1,1 +1,7 @@
 # UNP_PROJECT_REGRESSION_ENERGY_CONSUMPTION_PREDICTION_USING_MACHINE_LEARNING
+
+I worked on this project to develop a machine learning-based energy consumption prediction model using a household appliance energy consumption dataset containing 19,735 observations and 29 variables. I analyzed appliance energy consumption in relation to environmental, household, and weather-related factors such as temperature, humidity, lighting, outdoor temperature, atmospheric pressure, wind speed, and visibility. The project involved data preprocessing, removal of unnecessary variables and duplicates, outlier detection using boxplots, IQR-based outlier treatment, exploratory data analysis, trend analysis, and correlation analysis. Four regression models—Linear Regression, Decision Tree, Random Forest, and XGBoost—were implemented and evaluated using MAE, MSE, RMSE, MAPE, and R² across 60:40, 70:30, 75:25, and 80:20 train-test splits. Random Forest emerged as the best-performing model, achieving an R² of approximately 0.68–0.69 and the lowest prediction errors, demonstrating its ability to capture the complex relationships influencing household energy consumption.
+
+COLAB LINK-https://colab.research.google.com/drive/1cKq2gefE3fPQ8zFqX7gR9S48qfTE62d4?usp=sharing
+
+PPT LINK-https://docs.google.com/presentation/d/10xfQBZ0DulwhEWgkVGAGGGL-77FQWt3q/edit?usp=sharing&ouid=117489092062540578709&rtpof=true&sd=true
